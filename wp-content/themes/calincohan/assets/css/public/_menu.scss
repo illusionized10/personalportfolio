@@ -1,0 +1,39 @@
+	.main-header {
+		position:relative;
+		padding-top:5px;
+		padding-bottom:5px;
+		ul.menu {
+			float:right;
+			margin-top:45px;
+			margin-bottom:0px;
+			li {
+				list-style:none;
+				display:inline-block;
+				&.current_page_item {
+					a {
+						font-weight:800;
+						color:$branding-secondary;
+					}
+				}
+				a {
+					font-size:22px;
+					text-transform:uppercase;
+					letter-spacing:1px;
+					color:$branding-primary;
+					margin-left:10px;
+					margin-right:10px;
+				}
+				&:first-child {
+					a {
+						margin-left:0px;
+					}
+					
+				}
+				&:last-child {
+					a {
+						margin-right:0px;
+					}
+				}
+			}
+		}
+	}

@@ -1,0 +1,129 @@
+@import "public/mixins";
+
+@import "public/global";
+
+body {
+	font-family:$font-primary;
+    font-size: 14px;
+    margin:0;
+
+    h1, h2, h3, h4, h5, h6, p, ul, li {
+    	margin:0;
+    	padding:0;
+    }
+
+    .container {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+
+        @include breakpoint(sm) {
+            width: 750px;
+        }
+
+
+        @include breakpoint(md) {
+            width: 970px;
+        }
+
+
+        @include breakpoint(lg) {
+            width: 1170px;
+        }
+    }
+
+    //
+    .line {
+    	background-color:$branding-primary;
+    	width:1px;
+    	height:125px;
+    	margin:0 auto;
+    	text-align:center;
+    }
+
+    footer {
+    	background-color:#343434;
+    	.content {
+    		text-align:center;
+    		h2 {
+    			margin-top:25px;
+    			margin-bottom:40px;
+    			font-size:14px;
+    			text-transform:uppercase;
+    			color:$branding-primary;
+    			font-family:$font-secondary;
+    		}
+    		h3 {
+    			font-weight:400;
+    			color:#FFFFFF;
+    			font-size:40px;
+    			padding-bottom:80px;
+    		}
+    	}
+    	.custom-form {
+    		font-family:$font-secondary;
+    		background-color:#181818;
+    		padding:50px;
+    		max-width:760px;
+    		margin-left:auto;
+    		margin-right:auto;
+    		margin-bottom:100px;
+    		label {
+    			font-size:11px;
+    			text-transform:uppercase;
+    			font-weight:400;
+    			color:#FFFFFF;
+    			display:block;
+    		}
+    		input {
+    			width:100%;
+    			background-color:transparent;
+    			border-top:none;
+    			border-left:none;
+    			border-right:none;
+    			border-bottom:1px solid $branding-primary;
+    			display:block;
+    			font-size:16px;
+    			color:#FFFFFF;
+    			line-height:24px;
+    			outline:0;
+    			margin-bottom:50px;
+    		}
+    		.custom-submit {
+    			text-align:center;
+    			margin:0 auto;
+    			button {
+    				font-size:18px;
+    				font-weight:600;
+    				color:#181818;
+    				text-transform:uppercase;
+    				padding:15px 40px;
+    				border:0;
+    				background-color:$branding-primary;
+    			}
+    		}
+    	}
+    	.contact-information {
+    		font-family:$font-secondary;
+    		padding-bottom:70px;
+    		h5 {
+    			font-size:14px;
+    			font-weight:600;
+    			text-transform:uppercase;
+    			padding-bottom:30px;
+    			color:#FFFFFF;
+    		}
+    		div {
+    			font-size:14px;
+    			padding-bottom:10px;
+    			color:#bababa;
+    			display:block;
+    		}
+    		.social-icons {
+    			font-size:32px;
+    			font-family:$font-elegant;
+    		}
+    	}
+    }
+}
