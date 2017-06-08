@@ -42,6 +42,35 @@ body {
     	text-align:center;
     }
 
+    .about-panel {
+        background-color:#181818;
+        .header {
+            h2 {
+                margin-top: 25px;
+                padding-bottom: 40px;
+                font-size: 14px;
+                text-transform: uppercase;
+                color: $branding-primary;
+                text-align:center;
+                font-family:$font-secondary;
+            }
+            h3 {
+                font-weight:400;
+                color:#FFFFFF;
+                font-size:40px;
+                text-align:center;
+                padding-bottom: 80px;
+            }
+        }
+        .content {
+            p{
+                color:#bababa;
+                font-size:13px;
+            }
+        }
+
+    }
+
     footer {
     	background-color:#343434;
     	.content {
