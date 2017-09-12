@@ -14,22 +14,21 @@
 
 get_header(); ?>
 
+
 <div id="primary" class="content-area">
 	<main id="main" class="site-main" role="main">
 
-		<div class="wrap">
-			Custom front page template
-		</div>
-
 		<div class="about-panel">
-			<div class="line"></div>
-			<div class="header">
-				<h2>About Calin Cohan</h2>
-				<h3>So, who is this guy?</h3>
-			</div>
-			<div class="content">
-				<div class="row">
-					<div class="container">
+			<div class="container">
+				<div class="line"></div>
+				
+				<div class="header">
+					<h2>About Calin Cohan</h2>
+					<h3>So, who is this guy?</h3>
+				</div>
+
+				<div class="content">
+					<div class="row">
 						<div class="col-md-4">
 							<div class="left">
 								<p>I design and develop stunning websites to meet your business objectives. I won’t talk to you in technical jargon, I’ll listen to your needs, hatch the perfect plan, and create a product that gives you the best possible return on your investment.</p>
@@ -42,6 +41,7 @@ get_header(); ?>
 								<p>Do you need help with a web or digital project? Whether you just need an extra pair of digital hands, someone to cover those dastardly holidays, or maybe you need to get a guy in who ‘knows digital’ if you don’t have one in-house – I can help.</p>
 							</div>
 						</div>
+
 					</div>
 				</div>
 			</div>
