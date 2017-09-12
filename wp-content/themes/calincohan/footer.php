@@ -16,13 +16,15 @@
 	</div><!-- #content -->
 
 		<footer id="colophon" class="site-footer" role="contentinfo">
-			<div class="container">
-				<div class="content">
-					<div class="line"></div>
+			<div class="content">
+				<div class="line"></div>
+				<div class="container">
 					<h2>Contact Me</h2>
 					<h3>Let's talk about your project!</h3>
 				</div>
-				<div class="custom-form">
+			</div>
+			<div class="custom-form">
+				<div class="container">
 					<div class="row">
 						<div class="col-sm-6">
 							<label>Your Name</label>
@@ -49,25 +51,27 @@
 						</div>
 					</div>
 				</div>
-				<div class="contact-information">
+			</div>
+			<div class="contact-information">
+				<div class="container">
 					<div class="row">
-						<div class="col-sm-3">
+						<div class="col-md-3">
 							&copy;
 						</div>
-						<div class="col-sm-3">
+						<div class="col-md-3">
 							<h5>Contact Information</h5>
 							<div>Contact@CalinCohan.com</div>
 							<div>Penticton, BC, Canada</div>
 							<div>( 705 ) - 725 - 6679</div>
 						</div>
-						<div class="col-sm-3">
+						<div class="col-md-3">
 							<h5>Important Links</h5>
 							<div>About Calin Cohan</div>
 							<div>Projects/Portfolio</div>
 							<div>Contact</div>
 							
 						</div>
-						<div class="col-sm-3">
+						<div class="col-md-3">
 							<h5>Social Media</h5>
 							<div class="social-icons">
 								<span>&#xe0aa;</span>
@@ -78,7 +82,7 @@
 						</div>
 					</div>
 				</div>
-			</div><!-- .wrap -->
+			</div>
 		</footer><!-- #colophon -->
 	</div><!-- .site-content-contain -->
 </div><!-- #page -->
